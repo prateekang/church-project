@@ -7,5 +7,12 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <?php get_header(); ?>
+    <header class="header">
+        <div class ="nav-image">
+            <?php $logoimg= get_header_image(); ?>
+            <img src="<?php echo $logoimg; ?>" >
+
+</div>
+    </header>
+
     
